@@ -1,0 +1,2 @@
+#Комманда при вводе /takecase (выполняется от имени консоли)
+command: "crates givekeys %player% money"

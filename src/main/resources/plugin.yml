@@ -1,0 +1,6 @@
+name: TakeCase
+version: '2.0'
+main: ru.merkii.takecase.TakeCase
+depend: [ CommonLib ]
+authors: [ Merkii ]
+website: vk.com/lima_2005
