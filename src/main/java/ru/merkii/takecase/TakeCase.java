@@ -38,6 +38,6 @@ public final class TakeCase extends JavaPlugin {
         System.out.println(ChatColor.RED + "//////////////");
     }
     public static TakeCase getInstance() {
-        return TakeCase.instance;
+        return TakeCase.getInstance().instance;
     }
 }
