@@ -27,6 +27,7 @@ public final class TakeCase extends JavaPlugin {
         cf.registerCommands(new TakeCommands(this));
         MessageRegistry.addMessages("TakeCase", MessageRegistry.load(this, "messages.json", (TakeConfiguration.values())));
         dc.createData();
+        instance = this;
     }
     @Override
     public void onDisable() {
@@ -38,6 +39,6 @@ public final class TakeCase extends JavaPlugin {
         System.out.println(ChatColor.RED + "//////////////");
     }
     public static TakeCase getInstance() {
-        return TakeCase.getInstance().instance;
+        return instance;
     }
 }
